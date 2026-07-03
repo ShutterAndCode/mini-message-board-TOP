@@ -1,0 +1,7 @@
+<h1>Here is the message</h1>
+<article>
+    <h2>Author Name: <%= message.user %></h2>
+        <p>Message text: <%= message.text %></p>
+        <p><%= `date published: ${message.added.toLocaleString()}` %></p>
+        <a href="/">Get back to Messages</a>
+</article>

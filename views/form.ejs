@@ -1,0 +1,24 @@
+<h1>Create a new Message</h1>
+
+<form action="/new" method="post">
+  <div>
+    <label for="messageUsername">Enter Author Name: </label>
+    <input
+      type="text"
+      name="messageUsername"
+      id="messageUsername"
+      placeholder="John Doe"
+    />
+  </div>
+
+  <div>
+    <label for="messageText">Type your Message: </label>
+    <textarea
+      name="messageText"
+      id="messageText"
+      placeholder="Hello, what a wonderful day!"
+    ></textarea>
+  </div>
+
+  <button type="submit">Post your message</button>
+</form>
